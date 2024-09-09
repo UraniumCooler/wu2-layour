@@ -1,0 +1,41 @@
+:root {
+  --color-primary: #edd24b;
+  --color-link: #e1a54b;
+}
+
+body {
+  font-family: papyrus;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.6rem;
+  background-color: #f0f0f0;
+  font-size: 1.4rem;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.nav a {
+    color: #e2cd76;
+    text-decoration: none;
+}
+a:hover {
+    color: #e1a54b;
+    font-size: 10rem;
+}
+.active {
+  font-weight: 600;
+}
+
