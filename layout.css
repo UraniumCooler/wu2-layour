@@ -1,5 +1,5 @@
 :root {
-  --color-primary: #edd24b;
+  --color-primary: #f1e186;
   --color-link: #e1a54b;
 }
 
@@ -14,8 +14,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   gap: 1rem;
-  padding: 1.6rem;
-  background-color: #f0f0f0;
+  background-color: #001020;
   font-size: 1.4rem;
 }
 
@@ -28,14 +27,82 @@ body {
 }
 
 .nav a {
-    color: #e2cd76;
+    color: #f1e186;
     text-decoration: none;
 }
 a:hover {
     color: #e1a54b;
-    font-size: 10rem;
+    
 }
 .active {
   font-weight: 600;
 }
 
+#logo {
+  height: 3rem;
+  width: 3rem;
+  margin-left: 2rem;
+  margin-top: 0.7rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+body,html {
+  margin: 0;
+}
+
+
+.hero {
+  position: relative;
+  height: 60vh;
+
+  .overlay {
+      top: 0;
+      left: 0;
+      height: 60vh;
+      width: 100%;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.5);
+  }
+
+
+  h1 {
+      position: absolute;
+      font-family: "Papyrus", "Copperplate", fantasy;
+      font-size: 4rem;
+      color: #f1e186;
+      padding: 2rem;
+      padding-left: 3.5rem;
+      margin-top: 7rem;
+  }
+
+
+  img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      aspect-ratio: 16/9;
+      height: 60vh;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+  }
+}
+
+.container {
+  max-width: 80ch;
+  margin-left: 13rem;
+  margin-bottom: 2rem;
+}
+
+#benpyramid {
+      aspect-ratio: 16/9;
+      height: 80vh;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+      margin-top: 1.8rem;
+}
